@@ -36,21 +36,21 @@ $(document).ready(function ($) {
     $(".modal").removeClass("modal--visible");
   });
 
-  $(".modal__form").each(function () {
-    $(this).validate({
-      errorClass: "invalidd",
-      messages: {
-        name: {
-          required: "Надо - значит, надо!",
-        },
-        email: {
-          required: "мыло вводи давай!",
-          email: "Нормально вводи",
-        },
-      },
-    });
-  });
-});
+//   $(".modal__form").each(function () {
+//     $(this).validate({
+//       errorClass: "invalidd",
+//       messages: {
+//         name: {
+//           required: "Надо - значит, надо!",
+//         },
+//         email: {
+//           required: "мыло вводи давай!",
+//           email: "Нормально вводи",
+//         },
+//       },
+//     });
+//   });
+// });
 
 jQuery(function ($) {
   $("#phone-input").mask("+7 (999) 999-99-99");
